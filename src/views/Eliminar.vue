@@ -92,10 +92,7 @@ export default {
       let token = localStorage.getItem("token");
       axios
         .delete(
-          "http://localhost:3000/api/usuarios/" +
-            self.user_.usser +
-            "/" +
-            self.user_.password,
+          `https://lit-lowlands-96831.herokuapp.com/api/usuarios/${self.user_.usser}/${self.user_.password}`,
           {
             headers: { token },
           }

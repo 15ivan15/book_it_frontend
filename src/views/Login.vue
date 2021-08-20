@@ -110,7 +110,7 @@ export default {
       this.showDismissibleAlert = true;
       var self = this;
       axios
-        .post("http://localhost:3000/api/auth/login", self.user_, {
+        .post("https://lit-lowlands-96831.herokuapp.com/api/auth/login", self.user_, {
           headers: {},
         })
         .then((result) => {

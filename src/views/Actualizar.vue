@@ -118,7 +118,7 @@ export default {
       var self = this;
       axios
         .put(
-          "http://localhost:3000/api/usuarios/" + self.user_.usser,
+          `https://lit-lowlands-96831.herokuapp.com/api/usuarios/${self.user_.usser}`,
           this.user_,
           {
             headers: {},
