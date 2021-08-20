@@ -61,7 +61,7 @@ export default {
     localStorage.setItem("user", this.user_.usser);
     var self = this;
     axios
-      .get("https://lit-lowlands-96831.herokuapp.com/api/usuarios/" + self.user_.usser, {
+      .get("https://book-it-backend.herokuapp.com/api/usuarios/" + self.user_.usser, {
         headers: {},
       })
       .then((result) => {

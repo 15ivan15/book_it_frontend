@@ -110,7 +110,7 @@ export default {
       this.showDismissibleAlert = true;
       var self = this;
       axios
-        .post("https://lit-lowlands-96831.herokuapp.com/api/auth/login", self.user_, {
+        .post("https://book-it-backend.herokuapp.com/api/auth/login", self.user_, {
           headers: {},
         })
         .then((result) => {

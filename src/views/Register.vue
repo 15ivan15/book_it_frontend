@@ -144,7 +144,7 @@ export default {
     enviar: function () {
       var self = this;
       axios
-        .post("https://lit-lowlands-96831.herokuapp.com/api/usuarios/", self.user_, {
+        .post("https://book-it-backend.herokuapp.com/api/usuarios/", self.user_, {
           headers: {},
         })
         .then((result) => {
