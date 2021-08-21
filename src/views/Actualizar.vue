@@ -118,7 +118,7 @@ export default {
       var self = this;
       axios
         .put(
-          `https://book-it-backend.herokuapp.com/api/usuarios/${self.user_.usser}`,
+          "https://book-it-backend.herokuapp.com/api/usuarios/" + self.user_.usser,
           this.user_,
           {
             headers: {},

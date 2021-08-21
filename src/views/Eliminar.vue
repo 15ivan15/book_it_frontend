@@ -92,7 +92,10 @@ export default {
       let token = localStorage.getItem("token");
       axios
         .delete(
-          `https://book-it-backend.herokuapp.com/api/usuarios/${self.user_.usser}/${self.user_.password}`,
+          "https://book-it-backend.herokuapp.com/api/usuarios/" +
+            self.user_.usser +
+            "/" +
+            self.user_.password,
           {
             headers: { token },
           }

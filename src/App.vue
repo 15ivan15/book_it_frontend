@@ -44,7 +44,7 @@
               >
             </b-nav-item-dropdown>
             <b-nav-item style="font-size: 120%" :to="{ name: 'about' }"
-              >Aboutt</b-nav-item
+              >About</b-nav-item
             >
           </b-navbar-nav>
         </b-collapse>
